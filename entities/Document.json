@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "last_edited": {
+      "type": "string"
+    },
+    "word_count": {
+      "type": "number"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "is_starred": {
+      "type": "boolean"
+    },
+    "folder": {
+      "type": "string"
+    },
+    "emoji": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "Document"
+}
